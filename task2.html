@@ -1,0 +1,175 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+debugger;
+//1-> print the first 10 numbers reverse order
+var a=10;
+do{
+   console.log(a); 
+    a--
+}while(a>=1)
+
+
+//2-> print the square numbers
+for(var a=0;a<=10;a++)
+{
+  var square=a*a;                                                                                         
+    console.log(square); 
+}
+
+
+//3.Power of 2
+ var a=2
+ var b=1
+ var i=0
+ while(i<10){
+    b=a*b;
+    console.log(b);
+    i++
+ }
+
+
+//4. *Even Numbers:*
+for(var a=2;a<=20;i=i++)
+{
+   if(n%2==0){
+    console.log(a);
+   } 
+}
+//5. *Factorial with a Twist:*
+fact=1;
+for(i=1;i<=5;i++)
+{
+    fact=fact*i;
+}
+console.log(fact)
+
+
+//7. *Skip Numbers:*
+for(var i=1;i<=20;i++)
+{
+    if(i%2==1){
+        console.log(i);
+    }
+}
+//8. *Triangle Pattern (Numeric):*
+
+var x=" "
+for(i=1;i<=5;i++)
+{
+  x=x+i+" "
+  console.log(x);
+}
+
+
+// 9. *Sum of Digits:*
+var a=1;
+var sum=0;
+while(a<=10)
+{
+   sum +=a
+   a++
+}
+  console.log(sum);
+//10. *Even or Odd (Expanded):*
+for(var i=1;i<=20;i++)
+{
+    if(i%2==0){
+        console.log(i+" is even");
+    }
+    else
+    {
+        console.log(i+" is odd")
+    }  
+}
+
+
+//12. *Prime Numbers:*
+for(i=1;i<=50;i++)
+{
+    fc=0;
+    for(j=1;j<=i;j++)
+    {
+    if(i%j==0)
+    {
+        fc++;
+    }
+    }
+    if(fc==2)
+    {
+    console.log(i);
+    }
+}
+
+
+//13. *Reverse Countdown:*
+for(var a=20;a>=0;a--)
+{
+    console.log(a)
+}
+
+
+//14. *Alternate Pattern:*
+for(var a=0;a<=5;a++)
+{
+    console.log("*_*")
+}
+
+
+//15. *Divisible by 3:*
+var a=1;
+while(a<=30){
+    if(a%3==0){
+        console.log(a)
+    }
+    a++
+}
+//17. *Vowel Counter:*
+var a="hello"
+count=0;
+for(i=0;i<=a.length-1;i++){
+    if(a[i]=="a"||a[i]=="e"||a[i]=="i"||a[i]=="o"||a[i]=="u"){
+        count++;
+        
+    }
+   
+}
+console.log(count);
+
+ 
+//20. *Sum of Even Numbers:*
+var a=1
+var sum=0
+while(a<=20){
+    if(a%2==0){
+        sum += a
+    }
+    a++
+}
+console.log(sum);
+
+
+//reverse string
+var a= "Ramesh";
+b=a.length-1;
+for(c=b;c>=0;c--)
+{
+    console.log(a[c]);
+}
+//
+function fun(a)
+  {
+      for(i=0;i<=a;i++)
+      {
+          console.log(a**i)
+      }
+  }
+  fun(5)
+    </script>
+</body>
+</html>
