@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        debugger;
+    //1. Named Function
+    function hello(a){
+    for(i=0;i<=a;i=i+2)
+    {
+        console.log(i)
+    }
+    }hello(10);
+
+    //2.Arrow Function
+    var hello=(a)=>{
+        for(i=0;i<=a;i=i+2){
+            console.log(i);
+        }
+        }
+        hello(10);
+
+    //3. Ananymous function
+    var hello=function (a){
+        for(i=0;i<=a;i=i+2){
+            console.log(i)
+        }
+    }
+    hello(10);
+
+    //4.Immidiatly invoked function
+    (function (a){
+        for(i=0;i<=a;i=i+2)
+        {
+            console.log(i)
+        }
+    })
+    (10);
+    </script>
+   
+</body>
+</html>
