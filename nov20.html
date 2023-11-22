@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1. Create a function that takes two numbers as arguments and returns their sum.
+        function hello1(a,b){
+            return a+b;
+        }
+        console.log(hello1(11,20));
+
+        //2. Write a function that takes an integer minutes and converts it to seconds.
+        function minutes(a){
+            return a*60;
+        } 
+       console.log(minutes(5));
+
+        //3. Create a function that takes a number as an argument, increments the number by +1 and returns the result.
+        function hello2(a){
+            a++;
+        return a;
+        }
+        console.log(hello2(5));
+
+        //4. Create a function that takes the age in years and returns the age in days.
+        function hello3(a){
+            var days=365
+            return a*days;
+        }
+        console.log(hello3(2));
+
+        //5. sniCreate a function that takes voltage and current and returns the calculated power.
+       // formula: power=corrent*voltage
+       function hello4(current,voltage){
+        power=current*voltage;
+        return power;
+       }
+       console.log(hello4(240,50));
+
+       //6. Write a function that returns the string "something" joined with a space " " and the given argument a.
+       function hello5(a){
+        return a+" ";
+       }
+       console.log(hello5("something"));
+
+       //7.Create a function that takes two arguments. Both arguments are integers, a and b. Return true if one of them is 10 or if their sum is 10.
+       function hello6(a,b){
+        if(a==10 || b==10 || a+b==10)
+        {
+             return true;
+        }
+        }
+        console.log(hello6(6,4));
+
+        //8. Create a function that takes two strings as arguments and returns either true or false depending on whether the total number of characters in the first string is equal to the total number of characters in the second string.
+        function hello7(x,y){
+            a=x.length;
+            b=y.length;
+            if(a==b)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        console.log(hello7("hi guys","hlo guys"));
+
+    </script>
+</body>
+</html>
