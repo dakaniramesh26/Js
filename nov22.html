@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // debugger;
+//1. print vowels in a string
+        b="";
+        function hello(a){
+        for(i=0;i<a.length;i++)
+        {
+            if(a[i]=="a"||a[i]=="e"||a[i]=="i"||a[i]=="o"||a[i]=="u")
+            {
+                b=b+a[i];
+            }
+        }
+        console.log(b)
+    }
+    hello("hi guys good morning");
+
+    //output: iuoooi
+
+
+// //2. print even vowel count
+//     var a="good morning"
+//         count=0;
+//         function hello(){
+//         for(i=0;i<a.length-1;i++)
+//         {
+//             if(i%2==0){
+//             if(a[i]=="a"||a[i]=="e"||a[i]=="i"||a[i]=="o"||a[i]=="u")
+//             {
+//                 count++
+//                 console.log(a[i]);
+//             }
+//             }
+//         }
+//         console.log(count)
+//     }
+//     hello();
+
+    //output: 2
+
+//3. print the odd vowel using ternery operator
+
+function ram(x){
+    var a="";
+for(i=0;i<=x.length-1;i++){
+    i%2!=0?a=a+x[i]:'continue';
+}
+console.log(a);
+}
+ram("iam ramesh");
+
+    //output:   a aeh
+
+//4. print the length without using length method
+        var c=0;
+       function hi(a){
+       for(i=0;a[i]!=undefined;i++){
+           c=c+1;
+       }
+       console.log(c);
+       }
+       hi("good afternoon");
+
+    //output: 14
+
+//5. print the quotes within the quotes(double and single)
+var str = "I am \"dakani\" Ramesh\"";
+       console.log(str);
+
+       var a= "I\'am from\' hyd";
+       console.log(a);
+
+       var b = "web developer\\frontend developer"
+       console.log(b);
+
+
+    //output: I am "dakani" Ramesh"
+    //        I'am from' hyd
+    //        web developer\frontend developer
+
+    
+    </script>
+</body>
+</html>

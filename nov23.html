@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+//1. print possitive number without slice
+    var x="hello guys";
+function ex(a,b)
+{
+    for(i=a;i<b;i++)
+    {
+        console.log(x[i]);
+    }
+}ex(2,8);       
+// //output: l
+//           l
+//           o
+//           g
+//           u
+
+//2. print negative number without slice
+var x="i am ramu"
+function ex2(a,b)
+{    
+    for(i=x.length+a;i<x.length+b;i++)
+    {
+        console.log(x[i]);
+    }
+}
+ex2(-8,-1);
+//output:  
+//space
+// a
+// m
+//space
+// r
+// a
+// m
+
+//3. print the code split by using user defined
+function split(a){
+console.log(a.replaceAll(" ", ","));
+}
+split("hello guys good night");
+
+//output:   hello,guys,good,night
+
+    </script>
+</body>
+</html>
