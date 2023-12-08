@@ -1,0 +1,247 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            align-items: center;
+            color: green;
+            background-color: aqua;
+            text-align: center;
+        }
+        h1:hover{
+            color: red;
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: yellow;
+            border-radius: 20px;
+        }
+        th{
+            color: greenyellow;
+            background-color: purple;
+        }
+        th:hover{
+            background-color: green;
+            color: blue;
+        }
+        tr:hover{
+            background-color: rgb(195, 27, 44);
+           color: yellow;
+        }
+        h2{
+            text-decoration: underline;
+            color: red;
+            border-radius: 20px;
+        }
+        h2:hover{
+            background-color: aquamarine;
+            width: 250px;
+            color: black;
+        }
+
+    details{
+        background-color: tomato;
+        color: rgb(1, 7, 12);
+        width: 200px;
+        border-radius: 05px;
+    }
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+    </style>
+</head>
+<body>
+    <script>
+//name
+        let a=document.createElement("h1")
+        a.innerText="Ramesh Dakani";
+        body=document.body
+        body.appendChild(a);
+
+        let h1=document.createElement("hr")
+        document.body.appendChild(h1)
+//Career Objective
+        let co=document.createElement("h2")
+        co.innerText="Career Objective"
+        body.appendChild(co);
+
+        let pa=document.createElement("p")
+        pa.innerText="Pursuing a role as a front-end developer with a passion for creating immersive user experiences and nine years of freelance experience creating websites for a network of dedicated clients. Former software engineer looking for an opportunity to use my knowledge of mobile application development and machine learning."
+        body.appendChild(pa);
+//horizontal line
+        let h=document.createElement("hr")
+        body.appendChild(h)
+//Educational qualification
+        let edu=document.createElement("h2")
+        edu.innerText="Education Qualification"
+        body.appendChild(edu)
+
+
+       let tab=document.createElement("table")
+        document.body.appendChild(tab)
+// table headings
+        let tr1=document.createElement("tr")
+        tab.appendChild(tr1)
+
+        let tr1h1=document.createElement("th")
+        tr1h1.innerText="SI NO"
+        tr1.appendChild(tr1h1)
+
+        let tr1h2=document.createElement("th")
+        tr1h2.innerText="Collage Name"
+        tr1.appendChild(tr1h2)
+
+        let tr1h3=document.createElement("th")
+        tr1h3.innerText="Course"
+        tr1.appendChild(tr1h3)
+
+        let tr1h4=document.createElement("th")
+        tr1h4.innerText="Year of Passing"
+        tr1.appendChild(tr1h4)
+//1st row
+        let tr2=document.createElement("tr")
+        tab.appendChild(tr2)
+
+        let tr2d1=document.createElement("td")
+        tr2d1.innerText="1"
+        tr2.appendChild(tr2d1)
+
+        let tr2d2=document.createElement("td")
+        tr2d2.innerText="Malla Reddy Institute of Technology and Sciences"
+        tr2.appendChild(tr2d2)
+
+        let tr2d3=document.createElement("td")
+        tr2d3.innerText="Civil Engineering"
+        tr2.appendChild(tr2d3)
+
+        let tr2d4=document.createElement("td")
+        tr2d4.innerText="2023"
+        tr2.appendChild(tr2d4)
+//2nd row
+        let tr3=document.createElement("tr")
+        tab.appendChild(tr3)
+
+        let tr3d1=document.createElement("td")
+        tr3d1.innerText="2"
+        tr3.appendChild(tr3d1)
+
+        let tr3d2=document.createElement("td")
+        tr3d2.innerText="T S Model College"
+        tr3.appendChild(tr3d2)
+
+        let tr3d3=document.createElement("td")
+        tr3d3.innerText="MPC"
+        tr3.appendChild(tr3d3)
+
+        let tr3d4=document.createElement("td")
+        tr3d4.innerText="2019"
+        tr3.appendChild(tr3d4)
+//3rd row
+        let tr4=document.createElement("tr")
+        tab.appendChild(tr4)
+
+        let tr4d1=document.createElement("td")
+        tr4d1.innerHTML="3"
+        tr4.appendChild(tr4d1)
+
+        let tr4d2=document.createElement("td")
+        tr4d2.innerHTML="Z P High School"
+        tr4.appendChild(tr4d2)
+
+        let tr4d3=document.createElement("td")
+        tr4d3.innerHTML="SSC"
+        tr4.appendChild(tr4d3)
+
+        let tr4d4=document.createElement("td")
+        tr4d4.innerHTML="2017"
+        tr4.appendChild(tr4d4)
+
+        let h3=document.createElement("hr")
+        document.body.appendChild(h3)
+//technical skills
+        var ts=document.createElement("h2")
+        ts.innerText="Technical Skills"
+        body.appendChild(ts)
+
+        let li1=document.createElement("li")
+        li1.innerText="Core Java"
+        body.appendChild(li1)
+
+        let li2=document.createElement("li")
+        li2.innerText="Oracle Sql Pl/Sql"
+        body.appendChild(li2)
+
+        let li3=document.createElement("li")
+        li3.innerText="Html"
+        body.appendChild(li3)
+        
+        let li4=document.createElement("li")
+        li4.innerText="Css"
+        body.appendChild(li4)
+
+        let li5=document.createElement("li")
+        li5.innerText="JavaScript"
+        body.appendChild(li5)
+
+        let li6=document.createElement("li")
+        li6.innerText="Bootstrap"
+        body.appendChild(li6)
+
+        let li7=document.createElement("li")
+        li7.innerText="Git"
+        body.appendChild(li7)
+
+        let li8=document.createElement("li")
+        li8.innerText="GitHub"
+        body.appendChild(li8)
+
+        let h4=document.createElement("hr")
+        document.body.appendChild(h4)
+//hobbies
+        let hb=document.createElement("h2")
+        hb.innerText="Hobbies"
+        body.appendChild(hb)
+
+        let ul1=document.createElement("details")
+        document.body.appendChild(ul1)
+
+        let li01=document.createElement("li")
+        li01.innerText="Internet Surfing"
+        ul1.appendChild(li01)
+
+        let li02=document.createElement("li")
+        li02.innerText="Playing Chess"
+        ul1.appendChild(li02)
+
+        let li03=document.createElement("li")
+        li03.innerText="Listening Devotional Music"
+        ul1.appendChild(li03)
+
+        let h5=document.createElement("hr")
+        document.body.appendChild(h5)
+//declaration
+        let dc=document.createElement("h2")
+        dc.innerText="Declaration"
+        body.appendChild(dc)
+
+        let pa1=document.createElement("p")
+        pa1.innerText="I here by declare that all the information given above is true and correct to the best of my knowledge."
+        body.appendChild(pa1)
+
+        let date=document.createElement("p")
+        date.innerText="09/12/2023"
+        body.appendChild(date)
+
+        let name1=document.createElement("p")
+        name1.innerText="D Ramesh"
+        body.appendChild(name1)
+
+        let signiture=document.createElement("p")
+        signiture.innerText="Signiture"
+        body.appendChild(signiture)
+
+    </script>
+</body>
+</html>
