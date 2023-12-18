@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Image</title>
+</head>
+<body>
+     <button style="color: red; background-color: blue;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">click here</button>
+    <img style="display: block; padding: 20px;" src="https://i.pinimg.com/736x/72/df/78/72df78eb7d62012364460f6b8669ab63.jpg" alt="" width="400px">
+    
+</body>
+<script>
+let btn=document.getElementsByTagName("button")
+let imag=document.getElementsByTagName("img")
+btn[0]=addEventListener("click",()=>{
+    imag[0].setAttribute("src","https://as2.ftcdn.net/v2/jpg/05/32/47/15/1000_F_532471599_a3I37qhvuxl0vVDW8sFAJt80fAySm8G0.jpg")
+})
+
+</script>
+</html>
