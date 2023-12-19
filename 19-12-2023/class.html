@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    
+    <button>Click forward</button>
+    <button>Click backward</button>
+
+    <script>
+
+     
+
+
+        var btnget=document.getElementsByTagName("button");
+        btnget[0].addEventListener("click",()=>{
+           window.location.assign("./class2.html")
+           window.history.forward()
+        })
+       
+        btnget[1].addEventListener("click",()=>{
+            window.location.assign("./class3.html")
+            window.history.back()
+        })
+
+       
+            
+       
+
+       
+    </script>
+</body>
+</html>
